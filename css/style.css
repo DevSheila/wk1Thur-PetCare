@@ -1,0 +1,109 @@
+body{
+  font-family: sans-serif;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+  }
+
+
+  li a {
+    display: block;
+    color:white ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+  }
+
+  li a:hover {
+    background-color:  rgb(238, 89, 34);
+  }
+
+  .header-section{
+      height:670px;
+      background-image:url('../images/nihal-karkala-zA2AHvJFM_E-unsplash.jpg');
+      background-repeat: no-repeat;
+  }
+
+  .header-info{
+    text-align: left;
+    margin: 100px 200px;
+  }
+
+  .header-info h6{
+    color: rgb(238, 89, 34);
+    font-size: 20px;
+
+  }
+
+  .header-info h3{
+    font-size: larger;
+    color:white;
+  }
+
+  .header-info h3 span{
+    color: rgb(238, 89, 34);
+  }
+
+  .header-info p{
+    color: white;
+  }
+
+  .header-info button{
+  font:inherit;
+  font-weight: 600;
+  padding: 0.6rem 2rem;
+  background: transparent;
+  color:  rgb(238, 89, 34);
+  border:1px solid;
+  transition: 100ms ease;
+  position: static;
+}
+
+
+#services-section{
+  text-align: center;
+  margin: 100px 200px;
+
+}
+
+#services-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#petfood-section{
+  text-align: center;
+  margin: 100px 200px;
+
+}
+
+.pictures-header{
+  height: 550px;
+  
+}
+.petfood-img{
+  width: 400px;
+  height: 400px;
+}
+
+.petfood-list{
+  display: flex;
+  align-items: center;
+
+  
+}
+
+.petfood-box{
+  justify-content: space-around;
+
+}
