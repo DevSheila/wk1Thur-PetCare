@@ -22,6 +22,9 @@ li {
     text-decoration: none;
    
   }
+  .nav-active{
+    background-color:rgb(238, 89, 34);
+  }
 
   li a:hover {
     background-color:  rgb(238, 89, 34);
@@ -71,8 +74,14 @@ li {
 
 #services-section{
   text-align: center;
-  margin: 100px 200px;
 
+}
+.services-heading,.petfood-heading{
+  font-size: 20px;
+}
+
+.services-heading span,.petfood-heading span{
+  color:rgb(238, 89, 34);
 }
 
 #services-list{
@@ -85,31 +94,48 @@ li {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  border-right:5px solid rgb(238, 89, 34);
+
+}
+
+.services-box{
+ padding: 10px;
+ width:50%;
 }
 
 #petfood-section{
   text-align: center;
-  margin: 100px 200px;
 
 }
 
-.pictures-header{
-  height: 550px;
-  
-}
 .petfood-img{
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
 }
 
 .petfood-list{
   display: flex;
-  align-items: center;
-
+  justify-content: space-around;
   
 }
 
 .petfood-box{
-  justify-content: space-around;
+  border: 2px solid rgb(214, 207, 207);
+  padding: 10px;
+  margin: 10px;
+ width:30%;
+ justify-content: center;
+  /* align-items: center; */
 
+}
+
+.petfood-box button{
+  font:inherit;
+  font-weight: 600;
+  padding: 0.6rem 2rem;
+  background:rgb(238, 89, 34) ;
+  color:  white;
+  border:1px solid;
+  transition: 100ms ease;
+  position: static;
 }
